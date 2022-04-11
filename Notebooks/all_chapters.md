@@ -339,7 +339,7 @@ now
 ```
 
 ```
-## [1] "2022-03-29 08:03:24 CEST"
+## [1] "2022-04-11 20:41:53 CEST"
 ```
 
 
@@ -365,7 +365,7 @@ unclass(now)
 ```
 
 ```
-## [1] 1648533804
+## [1] 1649702513
 ```
 
 
@@ -928,58 +928,58 @@ deck[sample(nrow(deck)), ]
 
 ```
 ##     face     suit value
-## 28 queen diamonds    12
-## 22  five    clubs     5
-## 6  eight   spades     8
-## 19 eight    clubs     8
-## 9   five   spades     5
-## 52   ace   hearts     1
-## 50 three   hearts     3
-## 10  four   spades     4
-## 18  nine    clubs     9
-## 44  nine   hearts     9
-## 4    ten   spades    10
-## 8    six   spades     6
-## 32 eight diamonds     8
-## 31  nine diamonds     9
-## 29  jack diamonds    11
-## 16  jack    clubs    11
-## 7  seven   spades     7
-## 51   two   hearts     2
-## 45 eight   hearts     8
-## 20 seven    clubs     7
-## 25   two    clubs     2
-## 1   king   spades    13
-## 41 queen   hearts    12
-## 40  king   hearts    13
-## 38   two diamonds     2
-## 35  five diamonds     5
-## 21   six    clubs     6
-## 37 three diamonds     3
-## 47   six   hearts     6
-## 3   jack   spades    11
-## 42  jack   hearts    11
-## 30   ten diamonds    10
-## 2  queen   spades    12
-## 24 three    clubs     3
-## 23  four    clubs     4
-## 13   ace   spades     1
-## 11 three   spades     3
-## 46 seven   hearts     7
-## 5   nine   spades     9
-## 14  king    clubs    13
-## 43   ten   hearts    10
-## 34   six diamonds     6
-## 27  king diamonds    13
-## 36  four diamonds     4
-## 49  four   hearts     4
-## 12   two   spades     2
-## 48  five   hearts     5
-## 33 seven diamonds     7
-## 15 queen    clubs    12
-## 17   ten    clubs    10
-## 39   ace diamonds     1
 ## 26   ace    clubs     1
+## 50 three   hearts     3
+## 35  five diamonds     5
+## 7  seven   spades     7
+## 24 three    clubs     3
+## 14  king    clubs    13
+## 32 eight diamonds     8
+## 25   two    clubs     2
+## 9   five   spades     5
+## 33 seven diamonds     7
+## 49  four   hearts     4
+## 42  jack   hearts    11
+## 36  four diamonds     4
+## 13   ace   spades     1
+## 43   ten   hearts    10
+## 51   two   hearts     2
+## 47   six   hearts     6
+## 46 seven   hearts     7
+## 18  nine    clubs     9
+## 29  jack diamonds    11
+## 52   ace   hearts     1
+## 22  five    clubs     5
+## 5   nine   spades     9
+## 10  four   spades     4
+## 4    ten   spades    10
+## 27  king diamonds    13
+## 30   ten diamonds    10
+## 8    six   spades     6
+## 37 three diamonds     3
+## 40  king   hearts    13
+## 12   two   spades     2
+## 6  eight   spades     8
+## 1   king   spades    13
+## 45 eight   hearts     8
+## 41 queen   hearts    12
+## 21   six    clubs     6
+## 34   six diamonds     6
+## 48  five   hearts     5
+## 19 eight    clubs     8
+## 39   ace diamonds     1
+## 15 queen    clubs    12
+## 31  nine diamonds     9
+## 28 queen diamonds    12
+## 38   two diamonds     2
+## 20 seven    clubs     7
+## 16  jack    clubs    11
+## 23  four    clubs     4
+## 17   ten    clubs    10
+## 2  queen   spades    12
+## 44  nine   hearts     9
+## 3   jack   spades    11
+## 11 three   spades     3
 ```
 
 ```r
@@ -996,58 +996,58 @@ shuffle(deck)
 
 ```
 ##     face     suit value
-## 1   king   spades    13
-## 10  four   spades     4
-## 43   ten   hearts    10
-## 32 eight diamonds     8
-## 44  nine   hearts     9
-## 33 seven diamonds     7
-## 30   ten diamonds    10
-## 26   ace    clubs     1
+## 28 queen diamonds    12
+## 49  four   hearts     4
+## 17   ten    clubs    10
 ## 15 queen    clubs    12
-## 21   six    clubs     6
-## 41 queen   hearts    12
+## 44  nine   hearts     9
 ## 11 three   spades     3
-## 7  seven   spades     7
 ## 14  king    clubs    13
-## 29  jack diamonds    11
-## 18  nine    clubs     9
-## 4    ten   spades    10
-## 45 eight   hearts     8
-## 8    six   spades     6
-## 3   jack   spades    11
-## 50 three   hearts     3
-## 6  eight   spades     8
-## 48  five   hearts     5
-## 13   ace   spades     1
-## 42  jack   hearts    11
+## 40  king   hearts    13
+## 9   five   spades     5
+## 33 seven diamonds     7
 ## 34   six diamonds     6
-## 22  five    clubs     5
+## 2  queen   spades    12
+## 29  jack diamonds    11
+## 8    six   spades     6
+## 4    ten   spades    10
+## 26   ace    clubs     1
+## 37 three diamonds     3
 ## 36  four diamonds     4
 ## 51   two   hearts     2
-## 19 eight    clubs     8
-## 28 queen diamonds    12
-## 27  king diamonds    13
-## 40  king   hearts    13
-## 35  five diamonds     5
-## 37 three diamonds     3
-## 31  nine diamonds     9
-## 12   two   spades     2
-## 39   ace diamonds     1
-## 49  four   hearts     4
-## 5   nine   spades     9
-## 16  jack    clubs    11
-## 17   ten    clubs    10
-## 38   two diamonds     2
-## 47   six   hearts     6
-## 20 seven    clubs     7
-## 25   two    clubs     2
-## 24 three    clubs     3
+## 50 three   hearts     3
 ## 46 seven   hearts     7
+## 41 queen   hearts    12
+## 27  king diamonds    13
+## 21   six    clubs     6
+## 12   two   spades     2
+## 6  eight   spades     8
+## 35  five diamonds     5
+## 7  seven   spades     7
+## 25   two    clubs     2
+## 1   king   spades    13
+## 3   jack   spades    11
+## 39   ace diamonds     1
+## 13   ace   spades     1
+## 31  nine diamonds     9
+## 38   two diamonds     2
+## 30   ten diamonds    10
+## 10  four   spades     4
 ## 23  four    clubs     4
-## 9   five   spades     5
+## 20 seven    clubs     7
+## 32 eight diamonds     8
+## 47   six   hearts     6
+## 24 three    clubs     3
+## 45 eight   hearts     8
+## 43   ten   hearts    10
+## 18  nine    clubs     9
+## 5   nine   spades     9
+## 22  five    clubs     5
+## 42  jack   hearts    11
 ## 52   ace   hearts     1
-## 2  queen   spades    12
+## 48  five   hearts     5
+## 16  jack    clubs    11
+## 19 eight    clubs     8
 ```
 
 ```r
@@ -1059,8 +1059,8 @@ deck |> shuffle() |> deal()
 ```
 
 ```
-##     face   suit value
-## 11 three spades     3
+##    face     suit value
+## 34  six diamonds     6
 ```
 
 
@@ -1940,21 +1940,21 @@ pryr::parenvs(all = TRUE)
 
 ```
 ##    label                             name               
-## 1  <environment: 0x0000017bbefc3a30> ""                 
-## 2  <environment: 0x0000017bbef54dd0> ""                 
+## 1  <environment: 0x000001c1b079d3a0> ""                 
+## 2  <environment: 0x000001c1b17bb628> ""                 
 ## 3  <environment: namespace:ezknitr>  ""                 
-## 4  <environment: 0x0000017bbae2ad28> "imports:ezknitr"  
+## 4  <environment: 0x000001c1b09ceee0> "imports:ezknitr"  
 ## 5  <environment: namespace:base>     ""                 
 ## 6  <environment: R_GlobalEnv>        ""                 
-## 7  <environment: 0x0000017bb360c050> "tools:rstudio"    
+## 7  <environment: 0x000001c1aac1df70> "tools:rstudio"    
 ## 8  <environment: package:stats>      "package:stats"    
 ## 9  <environment: package:graphics>   "package:graphics" 
 ## 10 <environment: package:grDevices>  "package:grDevices"
 ## 11 <environment: package:utils>      "package:utils"    
 ## 12 <environment: package:datasets>   "package:datasets" 
 ## 13 <environment: package:methods>    "package:methods"  
-## 14 <environment: 0x0000017bb1910c48> "Autoloads"        
-## 15 <environment: 0x0000017bb9be51e0> "org:r-lib"        
+## 14 <environment: 0x000001c1a8f20ca0> "Autoloads"        
+## 15 <environment: 0x000001c1ab9f1078> "org:r-lib"        
 ## 16 <environment: base>               ""                 
 ## 17 <environment: R_EmptyEnv>         ""
 ```
@@ -2013,7 +2013,7 @@ parent.env(globalenv())
 ```
 
 ```
-## <environment: 0x0000017bb360c050>
+## <environment: 0x000001c1aac1df70>
 ## attr(,"name")
 ## [1] "tools:rstudio"
 ```
@@ -2043,7 +2043,7 @@ ls(globalenv())
 ```
 
 ```
-## [1] "knit_notebook"
+## [1] "knit_notebook" "notebook_dir"
 ```
 
 ```r
@@ -2051,7 +2051,8 @@ ls.str(globalenv())
 ```
 
 ```
-## knit_notebook : function (file)
+## knit_notebook : function (file)  
+## notebook_dir :  chr "C:/Users/juskup/OneDrive - Karolinska Institutet/Dokument/Hands_on_programming_with_R/notebooks/"
 ```
 
 
@@ -2087,7 +2088,7 @@ environment()
 ```
 
 ```
-## <environment: 0x0000017bbefc3a30>
+## <environment: 0x000001c1b079d3a0>
 ```
 
 
@@ -2173,10 +2174,10 @@ show_env()
 
 ```
 ## $ran.in
-## <environment: 0x0000017bc0025e78>
+## <environment: 0x000001c1b8238f98>
 ## 
 ## $parent
-## <environment: 0x0000017bbefc3a30>
+## <environment: 0x000001c1b079d3a0>
 ## 
 ## $object
 ```
@@ -2190,10 +2191,10 @@ show_env()
 
 ```
 ## $ran.in
-## <environment: 0x0000017bc02b4290>
+## <environment: 0x000001c1b83ed210>
 ## 
 ## $parent
-## <environment: 0x0000017bbefc3a30>
+## <environment: 0x000001c1b079d3a0>
 ## 
 ## $object
 ```
@@ -2215,7 +2216,7 @@ environment(show_env)
 ```
 
 ```
-## <environment: 0x0000017bbefc3a30>
+## <environment: 0x000001c1b079d3a0>
 ```
 
 
@@ -2264,10 +2265,10 @@ show_env()
 
 ```
 ## $ran.in
-## <environment: 0x0000017bc0b77258>
+## <environment: 0x000001c1b221b108>
 ## 
 ## $parent
-## <environment: 0x0000017bbefc3a30>
+## <environment: 0x000001c1b079d3a0>
 ## 
 ## $object
 ## a :  num 1
@@ -2303,10 +2304,10 @@ show_env()
 
 ```
 ## $ran.in
-## <environment: 0x0000017bbb47e608>
+## <environment: 0x000001c1b1a7f280>
 ## 
 ## $parent
-## <environment: 0x0000017bbefc3a30>
+## <environment: 0x000001c1b079d3a0>
 ## 
 ## $object
 ## a :  num 1
@@ -2481,14 +2482,14 @@ cards
 ##     assign("deck", deck[-1,], envir = globalenv())
 ##     card
 ##   }
-## <environment: 0x0000017bbe299318>
+## <environment: 0x000001c1b5b5a848>
 ## 
 ## $shuffle
 ## function() {
 ##     order <- sample(1:52, replace = FALSE)
 ##     assign("deck", DECK[order,], envir = globalenv())
 ##   }
-## <environment: 0x0000017bbe299318>
+## <environment: 0x000001c1b5b5a848>
 ```
 
 
@@ -2511,7 +2512,7 @@ deal
 ##     assign("deck", deck[-1,], envir = globalenv())
 ##     card
 ##   }
-## <environment: 0x0000017bbe299318>
+## <environment: 0x000001c1b5b5a848>
 ```
 
 ```r
@@ -2523,7 +2524,7 @@ shuffle
 ##     order <- sample(1:52, replace = FALSE)
 ##     assign("deck", DECK[order,], envir = globalenv())
 ##   }
-## <environment: 0x0000017bbe299318>
+## <environment: 0x000001c1b5b5a848>
 ```
 
 
@@ -2538,7 +2539,7 @@ environment(deal)
 ```
 
 ```
-## <environment: 0x0000017bbe299318>
+## <environment: 0x000001c1b5b5a848>
 ```
 
 ```r
@@ -2546,7 +2547,7 @@ environment(shuffle)
 ```
 
 ```
-## <environment: 0x0000017bbe299318>
+## <environment: 0x000001c1b5b5a848>
 ```
 
 
@@ -2612,7 +2613,7 @@ deal()
 
 ```
 ##    face   suit value
-## 10 four spades     4
+## 42 jack hearts    11
 ```
 
 ### Project 3: Slot Machine
@@ -3281,7 +3282,7 @@ play()
 ```
 
 ```
-## [1] "7" "0" "0"
+## [1] "B" "0" "0"
 ```
 
 ```
@@ -3367,7 +3368,7 @@ one_play <- play()
 ```
 
 ```
-## [1] "0"  "B"  "BB"
+## [1] "0" "0" "0"
 ```
 
 ```r
@@ -3453,7 +3454,7 @@ play()
 ```
 ## [1] 0
 ## attr(,"symbols")
-## [1] "B" "0" "B"
+## [1] "0"   "0"   "BBB"
 ```
 
 
@@ -3465,7 +3466,7 @@ two_play
 ```
 ## [1] 0
 ## attr(,"symbols")
-## [1] "BBB" "0"   "B"
+## [1] "0" "B" "B"
 ```
 
 
@@ -3492,9 +3493,9 @@ three_play
 ```
 
 ```
-## [1] 2
+## [1] 0
 ## attr(,"symbols")
-## [1] "C" "0" "0"
+## [1] "B"  "BB" "0"
 ```
 
 
@@ -3614,7 +3615,7 @@ print
 ```
 ## function (x, ...) 
 ## UseMethod("print")
-## <bytecode: 0x0000017bba23c908>
+## <bytecode: 0x000001c1a989b2d8>
 ## <environment: namespace:base>
 ```
 
@@ -3647,7 +3648,7 @@ print.POSIXct
 ##     else cat(class(x)[1L], "of length 0\n")
 ##     invisible(x)
 ## }
-## <bytecode: 0x0000017bbac06688>
+## <bytecode: 0x000001c1b7cf56f8>
 ## <environment: namespace:base>
 ```
 
@@ -3703,7 +3704,7 @@ print.factor
 ##         warning(val)
 ##     invisible(x)
 ## }
-## <bytecode: 0x0000017bb3fae2d8>
+## <bytecode: 0x000001c1b8378848>
 ## <environment: namespace:base>
 ```
 
@@ -3992,10 +3993,10 @@ prob[rolls$Var1]
 ```
 
 ```
-##     1     2     3     4     5     6     1     2     3     4     5     6     1     2     3     4     5     6 
-## 0.125 0.125 0.125 0.125 0.125 0.375 0.125 0.125 0.125 0.125 0.125 0.375 0.125 0.125 0.125 0.125 0.125 0.375 
-##     1     2     3     4     5     6     1     2     3     4     5     6     1     2     3     4     5     6 
-## 0.125 0.125 0.125 0.125 0.125 0.375 0.125 0.125 0.125 0.125 0.125 0.375 0.125 0.125 0.125 0.125 0.125 0.375
+##     1     2     3     4     5     6     1     2     3     4     5     6     1     2     3     4     5     6     1 
+## 0.125 0.125 0.125 0.125 0.125 0.375 0.125 0.125 0.125 0.125 0.125 0.375 0.125 0.125 0.125 0.125 0.125 0.375 0.125 
+##     2     3     4     5     6     1     2     3     4     5     6     1     2     3     4     5     6 
+## 0.125 0.125 0.125 0.125 0.375 0.125 0.125 0.125 0.125 0.125 0.375 0.125 0.125 0.125 0.125 0.125 0.375
 ```
 
 
@@ -5529,7 +5530,7 @@ plays_till_broke(100)
 ```
 
 ```
-## [1] 1109
+## [1] 1876
 ```
 
 
@@ -5561,7 +5562,7 @@ plays_till_broke(100)
 ```
 
 ```
-## [1] 681
+## [1] 325
 ```
 
 ### 12 Speed
@@ -5889,7 +5890,7 @@ mean(winnings)
 ```
 
 ```
-## [1] 0.933526
+## [1] 0.936162
 ```
 
 
@@ -5939,12 +5940,12 @@ get_many_symbols(5)
 ```
 
 ```
-##      [,1] [,2] [,3]
-## [1,] "0"  "B"  "B" 
-## [2,] "0"  "0"  "0" 
-## [3,] "0"  "B"  "0" 
-## [4,] "B"  "B"  "0" 
-## [5,] "0"  "BB" "B"
+##      [,1] [,2]  [,3]
+## [1,] "0"  "B"   "BB"
+## [2,] "0"  "BBB" "B" 
+## [3,] "BB" "0"   "0" 
+## [4,] "B"  "B"   "7" 
+## [5,] "7"  "0"   "0"
 ```
 
 
@@ -6060,15 +6061,6 @@ score_many <- function(symbols) {
 ```
 
 
-
 ```r
 # THE END
 ```
-
-
-
-
-
-
-
-

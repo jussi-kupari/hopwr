@@ -2783,15 +2783,6 @@ score_many <- function(symbols) {
 # Twenty times faster than the for-loop based code!
 ```
 
-
 ```{r}
 # THE END
 ```
-
-
-
-
-
-
-
-
